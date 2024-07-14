@@ -1,0 +1,29 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+  font-family: "Karla", sans-serif;
+}
+main {
+  padding: 1.5em;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 576px) {
+  .inputs {
+    flex-wrap: wrap;
+    gap: 1em;
+  }
+  .nav-item {
+    display: none;
+  }
+  .meme-img {
+    width: 100%;
+    padding: 2em 0;
+  }
+}
