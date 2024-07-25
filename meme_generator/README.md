@@ -27,13 +27,13 @@ To get a local copy up and running follow these simple steps.
 1. **Clone the repository**
 
     ```bash
-    git clone https://github.com/havishya10/meme-generator.git
+    git clone https://github.com/havishya10/React-Projects.git
     ```
 
 2. **Navigate to the project directory**
 
     ```bash
-    cd meme-generator
+    cd React-Projects/meme-generator
     ```
 
 3. **Install the dependencies**
