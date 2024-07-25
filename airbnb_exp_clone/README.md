@@ -20,7 +20,7 @@ This is an AirBnb Experience Clone React application that showcases a list of on
 2. Navigate to the project directory:
 
     ```bash
-    cd React-Projects/Online-Experiences-App
+    cd React-Projects/airbnb_exp_clone
     ```
 
 3. Install the dependencies:
