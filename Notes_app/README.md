@@ -34,22 +34,22 @@ A live demo of the application is available [here](#)
 
 Here's an overview of the project file structure:
 
-Notes_app/
-├── public/
-│ ├── index.html
-│ └── favicon.ico
-├── src/
-│ ├── components/
-│ │ ├── Editor.jsx
-│ │ └── Sidebar.jsx
-│ ├── firebase.js
-│ ├── App.css
-│ ├── App.jsx
-│ └── index.js
-├── .gitignore
-├── package.json
-├── README.md
-└── LICENSE
+    Notes_app/
+    ├── public/
+    │   ├── index.html
+    │   └── favicon.ico
+    ├── src/
+    │   ├── components/
+    │   │   ├── Editor.jsx
+    │   │   └── Sidebar.jsx
+    │   ├── firebase.js
+    │   ├── App.css
+    │   ├── App.jsx
+    │   └── index.js
+    ├── .gitignore
+    ├── package.json
+    ├── README.md
+    └── LICENSE
 
 ## Usage
 
