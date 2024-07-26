@@ -16,7 +16,6 @@ Welcome to the Tenzies Game! This is a simple and engaging React application tha
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [How It Works](#how-it-works)
-- [File Structure](#file-structure)
 - [Key Components](#key-components)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -78,27 +77,6 @@ To get a local copy up and running follow these simple steps.
 1. **Rolling Dice**: Clicking the "Roll" button will roll all dice that are not held. If all dice show the same number, the game is won and confetti will be displayed.
 2. **Holding Dice**: Click on any die to toggle its held state. Held dice will not be re-rolled on subsequent rolls.
 3. **Winning the Game**: The game checks if all dice have the same value and displays a "You Won" message along with confetti animation.
-
-## File Structure
-
-The project has the following structure:
-
-        React-Projects/
-    └── Tenzies_Game/
-    ├── src/
-    │ ├── components/
-    │ │ ├── App.jsx # Main application component managing game state and rendering interface.
-    │ │ ├── Die.jsx # Represents a single die with its value and hold state.
-    │ │ └── Confetti.jsx # Displays confetti animation when the game is won.
-    │ ├── App.css # Contains the styles for the main application.
-    │ ├── index.css # Contains global styles for the application.
-    │ ├── main.jsx # Entry point for the React application.
-    │ ├── index.html # HTML template for the application.
-    │ ├── package-lock.json # Lockfile for npm dependencies.
-    │ ├── package.json # Project metadata and dependencies.
-    │ └── vite.config.js # Configuration file for Vite, the build tool.
-    └── README.md # This file.
-
 
 ## Key Components
 
