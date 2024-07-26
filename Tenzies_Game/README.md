@@ -1,6 +1,27 @@
 # Tenzies Game
 
-Welcome to the Tenzies Game! This is a simple and engaging React application that simulates the classic dice game, Tenzies. The goal is to roll dice until all the dice show the same number. The app features a fun confetti animation when you win and interactive dice that can be held between rolls.
+Welcome to the Tenzies Game! This is a simple and engaging React application that simulates the classic dice game, Tenzies. The goal is to roll dice until all dice show the same number. The app features a fun confetti animation when you win and interactive dice that can be held between rolls.
+
+## Demo
+
+![Tenzies Game Demo](path/to/your/demo-image.png)
+
+[**Live Demo**](https://your-live-demo-link.com)
+
+## Table of Contents
+
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [How It Works](#how-it-works)
+- [File Structure](#file-structure)
+- [Key Components](#key-components)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgements](#acknowledgements)
 
 ## Features
 
@@ -60,12 +81,24 @@ To get a local copy up and running follow these simple steps.
 
 ## File Structure
 
-- `src/`
-  - `components/`
-    - `Die.jsx` - Displays a single die with a value and handles the click event to hold or release the die.
-    - `Confetti.jsx` - Displays a confetti animation using the `react-confetti` library.
-  - `App.jsx` - The main application component that manages game state and renders the game interface.
-  - `App.css` - Contains the styles for the application.
+The project has the following structure:
+
+        React-Projects/
+    └── Tenzies_Game/
+    ├── src/
+    │ ├── components/
+    │ │ ├── App.jsx # Main application component managing game state and rendering interface.
+    │ │ ├── Die.jsx # Represents a single die with its value and hold state.
+    │ │ └── Confetti.jsx # Displays confetti animation when the game is won.
+    │ ├── App.css # Contains the styles for the main application.
+    │ ├── index.css # Contains global styles for the application.
+    │ ├── main.jsx # Entry point for the React application.
+    │ ├── index.html # HTML template for the application.
+    │ ├── package-lock.json # Lockfile for npm dependencies.
+    │ ├── package.json # Project metadata and dependencies.
+    │ └── vite.config.js # Configuration file for Vite, the build tool.
+    └── README.md # This file.
+
 
 ## Key Components
 
@@ -96,3 +129,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 Enjoy playing Tenzies! 🎲✨
+
